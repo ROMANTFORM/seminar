@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+.video-section,
+.automatic-section,
+.consultant-section,
+.docs-section,
+.heading-section,
+.themes-section{
+    background-color: $background-grey;
+}
+.section-title{
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color: #3F3F3F;
+    padding: 19px 0 9px 0;
+}
+._active{
+    background-color: $red;
+}

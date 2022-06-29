@@ -11,5 +11,6 @@ module.exports = {
         additionalData: `@import "@/assets/styles/main.scss";`
       }
     }
-  }
+  },
+  publicPath: process.env.NODE_ENV === "production" ? "/seminar/" : "/",
 };
